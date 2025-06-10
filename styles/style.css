@@ -46,3 +46,9 @@ html {
   transform: scale(1.05);
   filter: drop-shadow(0 0 1px black);
 }
+
+.header nav a svg{
+  fill: var(--text-primary-color);
+  height: 6rem;
+  width: 6rem;
+}
