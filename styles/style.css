@@ -154,3 +154,12 @@ html {
   height: 4.5rem;
   width: 4.5rem;
 }
+
+.footer {
+  font-size: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 0;
+  padding: 3rem;
+}
