@@ -83,3 +83,11 @@ html {
   margin: 0 auto 4.8rem;
   filter: var(--primary-shadow);
 }
+
+.containerCard {
+  display: flex;
+  gap: 2.5rem; 
+  flex-wrap: wrap;
+  width: min(90%, 1200px);
+  margin: 0 auto;
+}
