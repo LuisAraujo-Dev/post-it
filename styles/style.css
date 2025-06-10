@@ -149,3 +149,8 @@ html {
   filter: drop-shadow(0 0 .1rem black);
   cursor: pointer;
 }
+
+.newCard svg{
+  height: 4.5rem;
+  width: 4.5rem;
+}
