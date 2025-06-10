@@ -111,3 +111,17 @@ html {
   transform: scale(1.05);
   filter: drop-shadow(0 0 .2rem black);
 }
+
+.card::before {
+  content: "";
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(135deg, transparent 2.49rem, #ccc 2.49rem);
+  filter: drop-shadow(0 0 .2rem black);
+  transition: filter 0.3s ease;
+}
+
