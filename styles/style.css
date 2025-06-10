@@ -10,14 +10,23 @@
 }
 
 html {
+  font-size: 62.5%;
   color: var(--text-primary-color);
   background-color: var(--dark-color);
   font-family: "inter", sans-serif;
 }
 
-header {
+.header {
   display: flex;
   justify-content: space-between;
   width: 100%;
   background-color: var(--background-color);
+}
+
+.header nav {
+   display: flex;
+   justify-content: space-between;
+   font-size: 2.4rem;
+   width: 100%;
+   margin: 15px 40px;
 }
