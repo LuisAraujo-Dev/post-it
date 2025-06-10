@@ -125,3 +125,6 @@ html {
   transition: filter 0.3s ease;
 }
 
+.card:hover::before {
+  filter: drop-shadow(0 0 0.3rem black);
+}
