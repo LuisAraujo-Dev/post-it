@@ -167,3 +167,8 @@ html {
 .footer p {
   filter: drop-shadow(0 0 .5rem black);
 }
+
+.footer p a {
+  text-decoration: none;
+  color: inherit;
+}
