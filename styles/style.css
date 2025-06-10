@@ -63,3 +63,9 @@ html {
   align-items: center;
   gap: 2rem;
 }
+
+.header nav li{
+  list-style: none;
+  font-size: 2rem;
+  width: 100px;
+}
