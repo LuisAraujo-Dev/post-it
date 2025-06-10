@@ -86,7 +86,7 @@ html {
 
 .containerCard {
   display: flex;
-  gap: 2.5rem; 
+  gap: 2.5rem;
   flex-wrap: wrap;
   width: min(90%, 120rem);
   margin: 0 auto;
@@ -109,7 +109,7 @@ html {
 
 .card:hover {
   transform: scale(1.05);
-  filter: drop-shadow(0 0 .2rem black);
+  filter: drop-shadow(0 0 0.2rem black);
 }
 
 .card::before {
@@ -121,10 +121,31 @@ html {
   top: 0;
   left: 0;
   background-image: linear-gradient(135deg, transparent 2.49rem, #ccc 2.49rem);
-  filter: drop-shadow(0 0 .2rem black);
+  filter: drop-shadow(0 0 0.2rem black);
   transition: filter 0.3s ease;
 }
 
 .card:hover::before {
   filter: drop-shadow(0 0 0.3rem black);
+}
+
+.newCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 6rem;
+  bottom: 6rem;
+  height: 6rem;
+  width: 6rem;
+  background-color: var(--text-primary-color);
+  border-radius: 50%;
+  filter: drop-shadow(0 0 2rem black);
+  transition: transform 1s ease, filter 1s ease;
+}
+
+.newCard:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 .1rem black);
+  cursor: pointer;
 }
