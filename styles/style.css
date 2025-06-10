@@ -94,6 +94,7 @@ html {
 
 .titleCard {
   font-weight: lighter;
+  font-size: 2.4rem;
   margin: 0;
 }
 
@@ -127,6 +128,10 @@ html {
 
 .card:hover::before {
   filter: drop-shadow(0 0 0.3rem black);
+}
+
+.card p{
+  font-size: 1.6rem;
 }
 
 .newCard {
