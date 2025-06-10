@@ -24,31 +24,35 @@ html {
 }
 
 .header nav {
-   display: flex;
-   justify-content: space-between;
-   font-size: 2.4rem;
-   width: 100%;
-   margin: 15px 40px;
-}
-
-.header nav a{
   display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: var(--text-primary-color);
-    filter: drop-shadow(0 0 5px black);
-    transition: transform 0.3s ease, filter 0.5s ease;
+  justify-content: space-between;
+  font-size: 2.4rem;
+  width: 100%;
+  margin: 15px 40px;
 }
 
-.header nav a:hover{
+.header nav a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--text-primary-color);
+  filter: drop-shadow(0 0 5px black);
+  transition: transform 0.3s ease, filter 0.5s ease;
+}
+
+.header nav a:hover {
   transform: scale(1.05);
   filter: drop-shadow(0 0 1px black);
 }
 
-.header nav a svg{
+.header nav a svg {
   fill: var(--text-primary-color);
   height: 6rem;
   width: 6rem;
+}
+
+.header nav a p {
+  font-size: 2.8rem;
 }
